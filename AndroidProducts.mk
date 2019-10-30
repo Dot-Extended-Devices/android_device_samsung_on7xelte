@@ -23,3 +23,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/legion_on7xelte.mk \
     $(LOCAL_DIR)/lean_on7xelte.mk \
     $(LOCAL_DIR)/colt_on7xelte.mk \
+    $(LOCAL_DIR)/aosip_on7xelte.mk \
