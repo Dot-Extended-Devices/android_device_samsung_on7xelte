@@ -1,4 +1,4 @@
-for rom in rr dot lineage aosp viper bootleg havoc legion lean colt aosip
+for rom in rr dot lineage aosp viper bootleg havoc legion aokp aosip
 do
   for variant in user userdebug eng
   do
