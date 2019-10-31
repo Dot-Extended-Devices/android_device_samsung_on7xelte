@@ -42,7 +42,7 @@ BUILD_FINGERPRINT := "samsung/on7xeltedd/on7xelte:6.0.1/MMB29K/G610FDDU1AQG2:use
 # Gapps
 DOT_OFFICIAL := true
 
-
+#xhdpi
 
 
 PRODUCT_DEVICE := on7xelte
