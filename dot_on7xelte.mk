@@ -23,9 +23,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common dot  stuff
 $(call inherit-product, vendor/dot/config/common.mk)
 
-# Boot animation
-TARGET_BOOT_ANIMATION_RES := 1080
-
 # Device identifier
 PRODUCT_NAME := dot_on7xelte
 PRODUCT_DEVICE := on7xelte
@@ -42,4 +39,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "samsung/on7xeltedd/on7xelte:6.0.1/MMB29K/G610FDDU1AQG2:user/release-keys"
 
-export DOT_OFFICIAL := true
+# Gapps
+DOT_OFFICIAL := true
+TARGET_GAPPS_ARCH := arm
+TARGET_DENSITY := xhdpi
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_MINIMAL_APPS := true
