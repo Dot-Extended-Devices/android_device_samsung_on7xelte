@@ -39,12 +39,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "samsung/on7xeltedd/on7xelte:6.0.1/MMB29K/G610FDDU1AQG2:user/release-keys"
 
-# Gapps
+#Sign woods to Official
 DOT_OFFICIAL := true
-
+DOT_BUILDTYPE := OFFICIAL
 #xhdpi
 
-
+# Gapps
 PRODUCT_DEVICE := on7xelte
 PRODUCT_NAME := dot_on7xte
 TARGET_SCREEN_WIDTH := 1080
